@@ -1,0 +1,22 @@
+# macOS / System
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.metadata_never_index
+.Spotlight-V100
+
+# Python (Global für alle .venv im Repo)
+.venv/
+.python-version
+__pycache__/
+
+# Global Git
+!**/.keep
+
+# Eigene Root-Files
+
+git_publish_public.zsh
+lokal-main.txt
+resources/clip640x424_annotated_*

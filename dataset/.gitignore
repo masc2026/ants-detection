@@ -1,0 +1,28 @@
+# Build-Verzeichnisse (ignoriere Inhalt, behalte Ordner per .keep)
+build/*
+!build/.keep
+
+# Xcode Projekt-Müll (User-Settings)
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# Compiler-Artefakte
+*.o
+*.dSYM/
+*.dSYM.zip
+
+# Custom Ordner
+data/*
+!data/.keep
+Test/data/debug/*
+!Test/data/debug/.keep
+scripts/
+yolo*/
