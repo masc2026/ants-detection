@@ -1,0 +1,34 @@
+# Build-Verzeichnisse (ignoriere Inhalt, behalte Ordner per .keep)
+build/*
+!build/.keep
+coreml/build/*
+!coreml/build/.keep
+
+# Xcode Projekt-Müll (für das CoreML Detect-Projekt)
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcuserstate
+xcuserdata/
+
+# Compiler-Artefakte
+*.o
+
+# Generierte Videos (PyTorch / CoreML)
+clip640x424_annotated_macos.mp4
+clip640x424_annotated_coreml.mp4
+clip640x424_annotated_linux.mp4
+clip640x424_annotated_pytorch.mp4
+
+# Custom Ordner
+config/
+UtilitiesTest/
+scripts/
+yolo*/
+data/*
+!data/.keep
+Test/data/debug/*
+!Test/data/debug/.keep
