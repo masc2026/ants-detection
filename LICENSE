@@ -1,0 +1,17 @@
+LICENSE NOTICE
+
+This repository contains multiple independent modules, each subject to its own licensing terms due to the use of different underlying technologies. 
+
+Please refer to the specific LICENSE files located within each directory for the exact terms, conditions, and restrictions that apply to that specific module.
+
+----------------------------------------------------------------------
+1. Dataset Generator (/dataset)
+----------------------------------------------------------------------
+The source code and documentation within the `dataset/` directory are licensed under the terms specified in the local license file. 
+See the file `dataset/LICENSE` for the full text and permissions.
+
+----------------------------------------------------------------------
+2. Inference Tools (/inferenz)
+----------------------------------------------------------------------
+The source code and tools within the `inferenz/` directory utilize the Ultralytics YOLO11 model. Therefore, the contents of this directory are strictly subject to the GNU Affero General Public License v3.0 (AGPL-3.0), or the respective Ultralytics licensing terms.
+See the file `inferenz/LICENSE` for the full text and obligations.
